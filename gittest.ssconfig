@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <TestModel Version="5.7.8322">
-  <TestCase Id="e5e452c8-f0d3-46f2-a840-39b8f5b111fb" RecordedOn="2022-10-14T13:28:53.3015616-04:00" Name="gittest" ThinkTime="0" MixWeight="1" />
+  <TestCase Id="e5e452c8-f0d3-46f2-a840-39b8f5b111fb" RecordedOn="2022-10-14T13:28:53.3015616-04:00" Name="gittest" Description="test2" ThinkTime="0" MixWeight="1" />
   <KPICounters>
-    <KPICounter Name="Requests/Sec" />
-    <KPICounter Name="Avg. Response (s)" />
-    <KPICounter Name="KB Received/Sec" />
-    <KPICounter Name="Errors/Sec" />
-    <KPICounter Name="Pending Requests" />
-    <KPICounter Name="Total Transactions/Sec" />
+    <KPICounter Name="Requests/Sec" AlertIfOver="No" />
+    <KPICounter Name="Avg. Response (s)" AlertIfOver="No" />
+    <KPICounter Name="KB Received/Sec" AlertIfOver="No" />
+    <KPICounter Name="Errors/Sec" AlertIfOver="No" />
+    <KPICounter Name="Pending Requests" AlertIfOver="No" />
+    <KPICounter Name="Total Transactions/Sec" AlertIfOver="No" />
   </KPICounters>
   <Agents>
     <Agent Name="Local" Host="RONNIE-PC" UserName="" CreateMonitors="Yes" />
